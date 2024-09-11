@@ -1,6 +1,6 @@
 ### voice.py : 음성파일을 텍스트로 변환하고 챗봇구현
 import streamlit as st
-from AudioRecorder import audiorecorder
+from audiorecorder import audiorecorder
 from openai import OpenAI
 import os
 from datetime import datetime
